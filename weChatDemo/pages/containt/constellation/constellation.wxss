@@ -1,0 +1,22 @@
+.item{
+  display: flex;
+  margin-top: 10px;
+}
+.left{
+  width: 50%; 
+   align-items: center;
+   justify-content: center; 
+   background: #AFBCBF;
+   margin: 10px;
+   border-radius: 5px;
+}
+.title{
+  width: 100%;
+  display: flex;
+  font-family: sans-serif;
+ font-size: 16px;
+ justify-content: center;
+  align-items: center;
+  color: white;
+ 
+}

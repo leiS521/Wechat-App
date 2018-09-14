@@ -1,0 +1,32 @@
+.inputStyle{
+  border: 1px solid black;
+  margin-left: 15px;
+   font-family: sans-serif;
+ font-size: 16px;
+
+  
+}
+.item{
+  display: flex;
+  margin-top: 10px;
+}
+.title{
+ margin-left: 16px;
+ font-family: sans-serif;
+ font-size: 16px;
+}
+.buttons{
+ width: 100%;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10px;
+  
+}
+.culator{
+  background: #AFBCBF;
+  width:300rpx;
+  color: white;
+}
+.days{
+  color:pink
+}

@@ -1,0 +1,45 @@
+<view class='content'>
+    <view class='item'>
+      <view class='title'>体重(k g) :</view>
+      <input class='inputStyle' type="digit"  id='input1' bindinput="bindKeyInput" placeholder="请输入你的体重（kg）"/>
+    </view>
+
+    <view class='item'>
+       <view class='title'>身高(cm) :</view>
+      <input class='inputStyle' bindinput="bindKeyInput" id='input2' type="digit"  placeholder="请输入你的身高（cm）"/>
+    </view>
+    
+    <view class='buttonbody'> 
+         <button class='culator' type="defaule"  bindtap="bodyMassCulator"> 计算体重指数          </button>
+    </view>
+     <view > 
+        <view >
+        <view class='values'>计算结果（BMi）：{{calcullValue}}</view>
+         </view>
+        <view > 
+        <view class='values'>正常体重（k g） ：{{weightValue}}</view> 
+         </view>
+        <view >
+        <view class='values'>最佳体重（k g） ：{{optimumWeight}}</view> 
+         </view>
+        <view >
+        <view class='values'>最佳上围（c m）：{{optimumSurround}}</view>
+         </view>
+        <view >
+        <view class='values'>最佳腰围（c m）：{{optimumWaist}}</view>
+         </view>
+        <view >
+        <view class='values'>最佳腹围（c m）：{{optimumAbdominal}}</view>
+         </view>
+        <view >
+        <view class='values'>最佳臀围（c m）：{{optimumHipline}}</view>
+         </view>
+        <view >
+        <view class='values'>最佳腿围（c m）：{{optimumThigh}}</view>
+         </view>
+
+     </view>
+</view>
+
+ 
+

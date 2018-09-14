@@ -1,0 +1,17 @@
+<view class='content'>
+      <view class='item'>
+        <input class='inputStyle' type="digit"  id='input1' bindinput="bindKeyInput" placeholder="年"/>
+        <view class='title'>年</view>
+        <input class='inputStyle' type="digit"  id='input2' bindinput="bindKeyInput" placeholder="月"/>
+        <view class='title'>月</view>
+        <input class='inputStyle' type="digit"  id='input3' bindinput="bindKeyInput" placeholder="日"/>
+        <view class='title'>日</view>
+
+      </view>
+       <view class='buttons'> 
+         <button class='culator' type="defaule"  bindtap="culator"> 开始计算         </button>
+    </view>
+      <view class='title'>
+       你和你的(他/她)相遇<text class='days'>{{days}}</text>天
+      </view>
+</view>

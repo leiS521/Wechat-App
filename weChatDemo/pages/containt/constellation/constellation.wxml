@@ -1,0 +1,113 @@
+<view class='content' >
+    <view class='item'>
+       <view class='left'>
+         <view class='title'>
+          <text>12/22 - 1/19</text>
+         </view>
+         <view class='title'>
+          <text>魔羯座</text>
+         </view>
+       </view>
+       <view class='left'>
+         <view class='title'>
+          <text>1/20 - 2/18</text>
+         </view>
+         <view class='title'>
+          <text>水瓶座</text>
+         </view>
+       </view>
+    </view>
+    <view class='item'>
+       <view class='left'>
+         <view class='title'>
+          <text>2/19 - 3/20</text>
+         </view>
+         <view class='title'>
+          <text>双鱼座 </text>
+         </view>
+       </view>
+       <view class='left'>
+         <view class='title'>
+          <text>3/21 - 4/20</text>
+         </view>
+         <view class='title'>
+          <text>白羊座</text>
+         </view>
+       </view>
+    </view>
+     <view class='item'>
+       <view class='left'>
+         <view class='title'>
+          <text>4/21 - 5/20</text>
+         </view>
+         <view class='title'>
+          <text>金牛座  </text>
+         </view>
+       </view>
+       <view class='left'>
+         <view class='title'>
+          <text>5/21 - 6/21</text>
+         </view>
+         <view class='title'>
+          <text>双子座</text>
+         </view>
+       </view>
+    </view>
+     <view class='item'>
+       <view class='left'>
+         <view class='title'>
+          <text>6/22 - 7/22</text>
+         </view>
+         <view class='title'>
+          <text>巨蟹座 </text>
+         </view>
+       </view>
+       <view class='left'>
+         <view class='title'>
+          <text>7/23 - 8/22</text>
+         </view>
+         <view class='title'>
+          <text>狮子座</text>
+         </view>
+       </view>
+    </view>
+
+     <view class='item'>
+       <view class='left'>
+         <view class='title'>
+          <text>8/23 - 9/22</text>
+         </view>
+         <view class='title'>
+          <text>处女座 </text>
+         </view>
+       </view>
+       <view class='left'>
+         <view class='title'>
+          <text>9/23 - 10/22</text>
+         </view>
+         <view class='title'>
+          <text>天秤座</text>
+         </view>
+       </view>
+    </view>
+
+    <view class='item'>
+       <view class='left'>
+         <view class='title'>
+          <text>10/23 - 11/21</text>
+         </view>
+         <view class='title'>
+          <text>天蝎座 </text>
+         </view>
+       </view>
+       <view class='left'>
+         <view class='title'>
+          <text>11/22 - 12/21</text>
+         </view>
+         <view class='title'>
+          <text>射手座</text>
+         </view>
+       </view>
+    </view>
+      
+</view>

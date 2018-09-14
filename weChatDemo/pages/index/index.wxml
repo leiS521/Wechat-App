@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+   <!-- <text class="user-motto">{{motto}}</text>-->
+    <view class="item">
+    <button class='culator' type="defaule" bindtap="gocalculator"> 计算器 </button>
+     <button class='culator' type="defaule" bindtap="goBodyMass"> 体重指数 </button>
+    </view>
+      <view class="item">
+    <button class='culator' type="defaule" bindtap="goLove"> 情侣对对碰</button>
+     <button class='culator' type="defaule" bindtap="goConstellation"> 星座查一查 </button>
+    </view>
+     <view class="item">
+    <button class='culator' type="defaule" bindtap="gohistory"> 工具1 </button>
+     <button class='culator' type="defaule" bindtap="gohistory"> 工具2 </button>
+    </view>
+     <view class="item">
+     <button class='culator' type="defaule" bindtap="gohistory"> 工具3 </button>
+     <button class='culator' open-type="contact">给开发者留言</button>
+    </view>
+  </view>
+  
+
+  
+</view>

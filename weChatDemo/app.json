@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/containt/calculator/calcul/testOne",
+    "pages/containt/calculator/history/history",
+    "pages/containt/bodyMass/bodyMass",
+    "pages/containt/lovers/love",
+    "pages/containt/constellation/constellation"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f78d1d",
+    "navigationBarTitleText": "小工具",
+    "navigationBarTextStyle":"white"
+  }
+ 
+  
+}
